@@ -502,6 +502,12 @@ const sidebar: SidebarsConfig = {
         },
         {
           type: "doc",
+          id: "reference/api/query-workflow-revision-requirements",
+          label: "Query Workflow Revision Requirements",
+          className: "api-method post",
+        },
+        {
+          type: "doc",
           id: "reference/api/query-workflow-revisions",
           label: "Query Workflow Revisions",
           className: "api-method post",
@@ -2274,14 +2280,20 @@ const sidebar: SidebarsConfig = {
       items: [
         {
           type: "doc",
+          id: "reference/api/create-secret",
+          label: "Create Secret",
+          className: "api-method post",
+        },
+        {
+          type: "doc",
           id: "reference/api/list-secrets",
           label: "List Secrets",
           className: "api-method get",
         },
         {
           type: "doc",
-          id: "reference/api/create-secret",
-          label: "Create Secret",
+          id: "reference/api/resolve-secrets",
+          label: "Resolve Secrets",
           className: "api-method post",
         },
         {
@@ -2301,6 +2313,12 @@ const sidebar: SidebarsConfig = {
           id: "reference/api/delete-secret",
           label: "Delete Secret",
           className: "api-method delete",
+        },
+        {
+          type: "doc",
+          id: "reference/api/set-secret-projects",
+          label: "Set Secret Projects",
+          className: "api-method put",
         },
         {
           type: "doc",
@@ -2436,6 +2454,12 @@ const sidebar: SidebarsConfig = {
           type: "doc",
           id: "reference/api/revoke-tool-connection",
           label: "Revoke Connection",
+          className: "api-method post",
+        },
+        {
+          type: "doc",
+          id: "reference/api/make-default-tool-connection",
+          label: "Make Default Connection",
           className: "api-method post",
         },
         {
@@ -2841,6 +2865,18 @@ const sidebar: SidebarsConfig = {
           id: "reference/api/fetch-channel-connection-setup",
           label: "Fetch Channel Connection Setup",
           className: "api-method get",
+        },
+        {
+          type: "doc",
+          id: "reference/api/query-channel-people",
+          label: "Query Channel People",
+          className: "api-method post",
+        },
+        {
+          type: "doc",
+          id: "reference/api/refresh-channel-people",
+          label: "Refresh Channel People",
+          className: "api-method post",
         },
         {
           type: "doc",
@@ -4045,6 +4081,42 @@ const sidebar: SidebarsConfig = {
           id: "reference/api/query-registry-skills",
           label: "Query Registry Skills",
           className: "api-method post",
+        },
+      ],
+    },
+    {
+      type: "category",
+      label: "Account Choices",
+      items: [
+        {
+          type: "doc",
+          id: "reference/api/upsert-account-choice",
+          label: "Upsert Account Choice",
+          className: "api-method post",
+        },
+        {
+          type: "doc",
+          id: "reference/api/query-account-choices",
+          label: "Query Account Choices",
+          className: "api-method post",
+        },
+        {
+          type: "doc",
+          id: "reference/api/resolve-account-choices",
+          label: "Resolve Account Choices",
+          className: "api-method post",
+        },
+        {
+          type: "doc",
+          id: "reference/api/fetch-account-choice",
+          label: "Fetch Account Choice",
+          className: "api-method get",
+        },
+        {
+          type: "doc",
+          id: "reference/api/delete-account-choice",
+          label: "Delete Account Choice",
+          className: "api-method delete",
         },
       ],
     },
